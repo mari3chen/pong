@@ -1,0 +1,47 @@
+<!---Unser HTML-Dokument. Erstelle dieses Template mit den Shortcuts 'html5' oder '!'-->
+
+ <!--Document Type Definition (DTD) zur korrekten Darstellung der Website durch den Browser. Kein HTML-Tag.-->
+ <!--Muss und darf als einziges Tag vor HTML-Tag stehen.--> 
+ <!DOCTYPE html>  
+ <!---Enthält die (Haupt-)Sprache des Dokuments.-->
+ <html lang="en">
+     <!--Hier startet unser Head-Element bzw. der ,,Kopf". Es enthält Infos über das Body-Element-->
+ <head>                 <!---unsichtbar für User der Seite/Anwendung-->
+     <!---Gängige Zeichen-Codierung für Unicode. Angabe für den Browser, damit er das Webdokument richtig liest/darstellt.-->             
+     <meta charset="UTF-8"> 
+     <!------->  
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <!--Info für Browser dazu, wie die Seite skaliert werden soll.-->  
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+      <!--Der Titel wird z.B. im Tab (der Registrierkarte) angezeigt. Auch wichtig für Barrierefreiheit (s. Screenreader).-->
+     <title>Pong Game</title>     <!---!!!!!!-->
+     <!----Verknüpfung zwischen unserem CSS-Dokument und diesem HTML-Dokument-->
+     <link rel="stylesheet" href="style.css" >      <!---!!!!!!-->  
+ </head>
+ <!----Hier endet der Head und der Body beginnt unten. 
+     Der Body enthält den ,,eigentlichen" Inhalt des Dokuments.-->
+ <body>   
+      <!----Unser Start-Knopf mit Text "Start Game"--->
+     <button id="start">Start Game</button>                          <!---!!!!!!-->
+      <!---Unser Canvas mit Angabe von Höhe und Breite-->            <!---!!!!!!-->
+     <canvas width="500" height="700"></canvas>                      <!---!!!!!!-->
+      <!---Unser Neustart-Knopf / Restart-Button-->                  <!---!!!!!!-->
+     <button id="restart">Restart Game</button>  
+      <!--Verknüpfung zwischen unserem JavaScript-Dokument und diesem HTML-Dokument. -->
+     <script src="script.js" ></script>                              <!---!!!!!!-->
+ </body>
+ </html>
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+ 
